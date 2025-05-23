@@ -2,7 +2,9 @@ Rock-Paper-Scissors Hand Gesture Game
 A modern, interactive Rock-Paper-Scissors game using your webcam and hand gestures, powered by OpenCV and MediaPipe.
 Challenge the AI, see your score live, and enjoy a smooth and visually appealing interface!
 
-![screenshot] ![Uploading Screenshot 2025-04-10 141614.png…]()
+![screenshot] 
+![Uploading Screenshot 2025-04-10 141614.png…]()
+
 
 
 Features
