@@ -2,6 +2,7 @@
 A modern, interactive Rock-Paper-Scissors game using your webcam and hand gestures, powered by OpenCV and MediaPipe.
 Challenge the AI, track your score live, and enjoy a smooth, colorful UI!
 
+![Uploading Screenshot 2025-04-10 141614.png…]()
 
 
 🚀 Features
