@@ -1,82 +1,92 @@
-Rock-Paper-Scissors Hand Gesture Game
+🪨✋✂️ Rock-Paper-Scissors Hand Gesture Game
 A modern, interactive Rock-Paper-Scissors game using your webcam and hand gestures, powered by OpenCV and MediaPipe.
-Challenge the AI, see your score live, and enjoy a smooth and visually appealing interface!
-
-![Screenshot 2025-04-10 141614](https://github.com/user-attachments/assets/3d3f6811-635c-49ad-b39a-a11e43e2ccda)
+Challenge the AI, track your score live, and enjoy a smooth, colorful UI!
 
 
-Features
-🖐️ Hand gesture recognition for Rock, Paper, and Scissors using MediaPipe
 
-🎥 Live webcam feed with hand landmarks and gesture labels
+🚀 Features
+🖐️ Hand Gesture Recognition for Rock, Paper, and Scissors using MediaPipe
 
-🤖 AI opponent with random moves
+🎥 Live Webcam Feed with hand landmarks and gesture labels
 
-📊 Score tracking for both player and AI
+🤖 AI Opponent that selects moves randomly
 
-🖼️ Modern, colorful UI with clear sections for player and AI
+📊 Score Tracker for Player vs AI
 
-🟩 Robust gesture detection (aggregates over several frames for accuracy)
+🎨 Modern UI with clearly defined sections
 
-🟦 Easy controls:
+✅ Robust Detection by aggregating results across frames
 
-s to start a round
+🎮 Simple Controls:
 
-r to reset the game
+s → Start a new round
 
-q to quit
+r → Reset the game
 
-Installation
-Clone the repository:
+q → Quit the game
 
+🧩 Installation
+1️⃣ Clone the Repository
 bash
+Copy
+Edit
 git clone https://github.com/yourusername/rock-paper-scissors-gesture.git
 cd rock-paper-scissors-gesture
-Install dependencies:
-
+2️⃣ Install Dependencies
 bash
+Copy
+Edit
 pip install opencv-python mediapipe numpy
-Usage
-Run the game:
-
+🕹️ How to Play
 bash
+Copy
+Edit
 python main.py
-Show your hand gesture (rock, paper, or scissors) in the camera box during the countdown.
+Show your Rock, Paper, or Scissors gesture in the webcam box.
 
-See the result and score!
+Hold steady during the countdown.
 
-File Structure
-text
+The AI selects its move.
+
+See the result and live score on screen!
+
+🗂️ File Structure
+bash
+Copy
+Edit
 rock-paper-scissors-gesture/
-│
-├── main.py                  # Main game logic and UI
-├── handTrackingModule.py    # Hand detection and gesture recognition
-├── README.md
-└── screenshot.png           # (Optional) Screenshot of the game UI
-How It Works
-Uses your webcam to detect your hand and recognize gestures (rock, paper, scissors).
+├── main.py                # Main game logic and UI rendering
+├── handTrackingModule.py  # Hand detection and gesture recognition
+├── README.md              # Project overview
+└── screenshot.png         # Optional screenshot for README
+🔍 How It Works
+Uses MediaPipe for real-time hand tracking.
 
-Aggregates gesture detection over multiple frames for robust results.
+Recognizes gestures based on the relative positions of landmarks.
 
-AI randomly selects its move.
+Aggregates detection over several frames to avoid false recognition.
 
-Scores are updated and displayed after each round.
+Displays the AI vs Player UI with moves and scores.
 
-Tips for Best Performance
-Make sure your hand is fully visible and well-lit in the camera box.
+📷 Tips for Best Performance
+Use a well-lit area with no hand occlusion.
 
-Hold your gesture steady during the countdown.
+Maintain a steady gesture during the countdown.
 
-For best results, use a plain background behind your hand.
+Prefer a plain background to improve gesture detection accuracy.
 
-Credits
-MediaPipe for hand tracking
+🙏 Credits
+MediaPipe – Real-time hand tracking
 
-OpenCV for image processing
+OpenCV – Image and video processing
 
-UI inspired by modern game layouts
+UI inspired by modern game HUDs
 
-License
+📄 License
+This project is licensed under the MIT License.
+Feel free to use, share, and build upon it!
+
+
 MIT License.
 Feel free to use, modify, and share!
 
