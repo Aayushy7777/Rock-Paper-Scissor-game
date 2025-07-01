@@ -4,7 +4,9 @@ Challenge the AI, see your score live, and enjoy a smooth and visually appealing
 
 ![Screenshot 2025-04-10 141614](https://github.com/user-attachments/assets/867b3c89-db55-4125-b04a-6e3f87e4d0bf)
 
+![Screenshot 2025-04-10 141542](https://github.com/user-attachments/assets/f0579aca-d05e-455b-9660-22f748ca8b2e)
 
+![Uploading Screenshot 2025-04-10 141458.png…]()
 
 
 Features
