@@ -6,7 +6,8 @@ Challenge the AI, see your score live, and enjoy a smooth and visually appealing
 
 ![Screenshot 2025-04-10 141542](https://github.com/user-attachments/assets/f0579aca-d05e-455b-9660-22f748ca8b2e)
 
-![Uploading Screenshot 2025-04-10 141458.png…]()
+![Screenshot 2025-04-10 141458](https://github.com/user-attachments/assets/8f13b06d-0ebd-45cc-b1ee-48b9b8f4d348)
+
 
 
 Features
